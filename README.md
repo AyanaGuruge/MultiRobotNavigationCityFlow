@@ -25,3 +25,17 @@ The Following needs to be installed as a basic requirement to run the project.
 3. go to /turtlebot3_ws
 4. run the following
    ros2 launch multi_tb3_sim multi_turtlebot3.launch.py
+
+## Team and credits
+
+Open project for the course Aerial Robotics and Multi Robot Systems (DTEK2084) at the University of Turku, spring 2025, by Group 06.
+
+Team (equal contributions): Ameer Moavia, Ayana Guruge and Syed Mehdi.
+
+* Ameer Moavia: road network and flow files, CityFlow configuration, multi TurtleBot setup in Gazebo, ROS bridge.
+* Ayana Guruge: CityFlow configuration, debugging, multi TurtleBot setup in Gazebo, ROS bridge.
+* Syed Mehdi: environment setup, Gym wrapper for reinforcement learning, multi TurtleBot setup in Gazebo, ROS bridge.
+
+Status: a DQN agent (Stable Baselines3) was trained in the CityFlow environment and three TurtleBot3 robots run in Gazebo on ROS 2 Humble. The bridge between the trained model and the TurtleBots was not finished within the course, and multi robot experiments were not run.
+
+This repository is a copy of the original at https://github.com/Sh0w0ff/MultiRobotNavigationCityFlow, with the original commit history, dates and authors kept.
